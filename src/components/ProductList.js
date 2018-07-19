@@ -17,20 +17,15 @@ const styles = {
 };
 
 
-/*constructor() {
-  super();
-  this.addToCart = this.addToCart.bind(this);
-  axios.get(`https://aquiandamios.000webhostapp.com/reactRedux/src/phones.json`)
-   .then(res => {
-     const cart = res.data;
-     this.setState({ cart });
-   })
 
-*/
 class ProductList extends Component {
   constructor() {
     super();
-    this.state = {
+
+  /*
+  AXIOS
+
+  this.state = {
       products: []
     }
 
@@ -39,10 +34,75 @@ class ProductList extends Component {
         const products = res.data;
         this.setState({ products });
       })
+*/
 
+super();
+  this.addToCart = this.addToCart.bind(this);
 
+  this.state = {
+    products: [
+      {
+        "id": 1,
+        "name": "Iphone X",
+        "price": 1.159,
+        "color": "Gris Espacial",
+        "batery": "2.716 mAh",
+        "description": "Tamaño Pantalla (in): 14,73 cm - 5,8 Resolución cámara trasera:12 Mpx Resolución cámara delantera:7 Mpx",
+        "image": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/827546_00_1.jpg",
+      },
+      {
+        "id": 2,
+        "name": "Samsung Galaxy",
+        "price": 499,
+        "color": "Orhidey Grey",
+        "batery": "3.000mAh",
+        "description": "Tamaño Pantalla (in): 14,73 cm - 5,8' Resolución cámara trasera:12 Mpx Resolución cámara delantera:8 Mpx Procesador (núcleos):8 Núcleos",
+        "image": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/221127_00_1.jpg",
+      },
+      {
+        "id": 3,
+        "name": "Iphone X",
+        "price": 1.159,
+        "color": "Gris Espacial",
+        "batery": "2.716 mAh",
+        "description": "Tamaño Pantalla (in): 14,73 cm - 5,8 Resolución cámara trasera:12 Mpx Resolución cámara delantera:7 Mpx",
+        "image": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/827546_00_1.jpg",
+      },
+      {
+        "id": 4,
+        "name": "Iphone X",
+        "price": 1.159,
+        "color": "Gris Espacial",
+        "batery": "2.716 mAh",
+        "description": "Tamaño Pantalla (in): 14,73 cm - 5,8 Resolución cámara trasera:12 Mpx Resolución cámara delantera:7 Mpx",
+        "image": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/827546_00_1.jpg",
+      },
+      {
+        "id": 5,
+        "name": "Samsung Galaxy",
+        "price": 499,
+        "color": "Orhidey Grey",
+        "batery": "3.000mAh",
+        "description": "Tamaño Pantalla (in): 14,73 cm - 5,8' Resolución cámara trasera:12 Mpx Resolución cámara delantera:8 Mpx Procesador (núcleos):8 Núcleos",
+        "image": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/221127_00_1.jpg",
+      },
+      {
+        "id": 6,
+        "name": "Iphone X",
+        "price": 1.159,
+        "color": "Gris Espacial",
+        "batery": "2.716 mAh",
+        "description": "Tamaño Pantalla (in): 14,73 cm - 5,8 Resolución cámara trasera:12 Mpx Resolución cámara delantera:7 Mpx",
+        "image": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/827546_00_1.jpg",
+      },
+
+    ]
 
   }
+}
+
+
+
 
   render() {
     return (
