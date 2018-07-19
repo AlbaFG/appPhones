@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Iphone X",
+    "price": 1.159,
+    "color": "Gris Espacial",
+    "batery": "2.716 mAh",
+    "description": "Tamaño Pantalla (in): 14,73 cm - 5,8 Resolución cámara trasera:12 Mpx Resolución cámara delantera:7 Mpx",
+    "image": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/827546_00_1.jpg",
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy",
+    "price": 499,
+    "color": "Orhidey Grey",
+    "batery": "3.000mAh",
+    "description": "Tamaño Pantalla (in): 14,73 cm - 5,8' Resolución cámara trasera:12 Mpx Resolución cámara delantera:8 Mpx Procesador (núcleos):8 Núcleos",
+    "image": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/221127_00_1.jpg",
+  },
+  {
+    "id": 3,
+    "name": "Mrs. Dennis Schulist",
+    "color": "Leopoldo_Corkery",
+    "batery": "Karley_Dach@jasper.info",
+    "description": "1-477-935-8478 x6430",
+    "image": "ola.org",
+  },
+  {
+    "id": 4,
+    "name": "Mrs. Dennis Schulist",
+    "color": "Leopoldo_Corkery",
+    "batery": "Karley_Dach@jasper.info",
+    "description": "1-477-935-8478 x6430",
+    "image": "ola.org",
+  },
+  {
+    "id": 5,
+    "name": "Mrs. Dennis Schulist",
+    "color": "Leopoldo_Corkery",
+    "batery": "Karley_Dach@jasper.info",
+    "description": "1-477-935-8478 x6430",
+    "image": "ola.org",
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "color": "Leopoldo_Corkery",
+    "batery": "Karley_Dach@jasper.info",
+    "description": "1-477-935-8478 x6430",
+    "image": "ola.org",
+  },
+
+]
